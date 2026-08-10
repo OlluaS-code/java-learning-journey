@@ -46,5 +46,17 @@ public class UnaryOperators {
         // Decremento: subtrai 1 do valor atual da variável
         stepsCount--; // Volta a valer 20
         System.out.println(String.format("Contagem após decremento (--): %d", stepsCount));
+
+        System.out.println("\n------------------------------------------------\n");
+
+        // ========================================================================= 3. OPERADOR TERNÁRIO (= condição ? true : false) =========================================================================
+
+        int a,b;
+        a = 7;
+        b = 6;
+
+        String resultTernary = a == b ? "verdadeiro" : "falso";
+
+        System.out.println(resultTernary);
     }
 }
