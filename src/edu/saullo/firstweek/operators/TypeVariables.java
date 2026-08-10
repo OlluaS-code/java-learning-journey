@@ -1,4 +1,4 @@
-package edu.saullo.firstweek;
+package edu.saullo.firstweek.operators;
 
 public class TypeVariables {
     public static void main(String[] args) throws Exception {

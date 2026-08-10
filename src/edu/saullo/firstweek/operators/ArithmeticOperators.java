@@ -1,12 +1,10 @@
-package edu.saullo.firstweek;
+package edu.saullo.firstweek.operators;
 
 public class ArithmeticOperators {
 
     public static void main(String[] args) {
 
-        // =========================================================================
-        // 1. OPERADORES BÁSICOS (Soma, Subtração, Multiplicação e Módulo)
-        // =========================================================================
+        // ========================================================================= 1. OPERADORES BÁSICOS (Soma, Subtração, Multiplicação e Módulo) =========================================================================
         int firstNumber = 10;
         int secondNumber = 3;
 
@@ -23,7 +21,7 @@ public class ArithmeticOperators {
 
         System.out.println("\n------------------------------------------------\n");
 
-        // ========================================================================= 2. A REGRA DA DIVISÃO (Inteiro vs Decimal) =========================================================================
+        // ========================================================================= 2. A REGRA DA DIVISÃO (Inteiro vs Decimal)  =========================================================================
         System.out.println("--- Comportamento de Divisão ---");
 
         // Como vimos no Boletim, dividir dois inteiros joga os decimais fora (Truncamento)
@@ -36,7 +34,7 @@ public class ArithmeticOperators {
 
         System.out.println("\n------------------------------------------------\n");
 
-        // ========================================================================= 3. PRECEDÊNCIA MATEMÁTICA (A Ordem dos Fatores Altera o Resultado)  =========================================================================
+        // ========================================================================= 3. PRECEDÊNCIA MATEMÁTICA (A Ordem dos Fatores Altera o Resultado) =========================================================================
         System.out.println("--- Precedência Matemática ---");
 
         // O Java segue a regra matemática real (PEMDAS): Multiplicação e Divisão acontecem ANTES.
@@ -64,7 +62,7 @@ public class ArithmeticOperators {
 
         // O mesmo vale para o decremento com o sinal de menos (currentNumber-- ou --currentNumber)
 
-        // ========================================================================= 5. MISTURANDO NÚMEROS E STRINGS (Conversão e Concatenação)=========================================================================
+        // ========================================================================= 5. MISTURANDO NÚMEROS E STRINGS (Conversão e Concatenação) =========================================================================
 
         System.out.println("--- Concatenação de Números e Textos ---");
 

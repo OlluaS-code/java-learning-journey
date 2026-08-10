@@ -1,4 +1,4 @@
-package edu.saullo.firstweek;
+package edu.saullo.firstweek.operators;
 
 public class UnaryOperators {
     public static void main(String[] args) {
