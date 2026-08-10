@@ -2,27 +2,27 @@ package edu.saullo.firstweek;
 
 public class ConcatName {
     public static void main(String[] args) {
-        String primeiroNome;
-        String segundoNome;
-        String terceiroNome;
+        String firstName;
+        String secondName;
+        String thirdName;
 
-        primeiroNome = "Saullo";
-        segundoNome = "Moura";
-        terceiroNome = "Tavares";
+        firstName = "Saullo";
+        secondName = "Moura";
+        thirdName = "Tavares";
 
-        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome, terceiroNome);
-        System.out.println(nomeCompleto);
+        String nameComplete = nameComplete(firstName, secondName, thirdName);
+        System.out.println(nameComplete);
     }
 
-    public static String nomeCompleto(String primeiroNome, String segundoNome) {
-        return nomeCompleto(primeiroNome, segundoNome, "");
+    public static String nameComplete(String firstName, String secondName) {
+        return nameComplete(firstName, secondName, "");
     }
 
-    public static String nomeCompleto(String primeiroNome, String segundoNome, String terceiroNome) {
-        String resultadoParse = "Retorno do Metodo " + primeiroNome.concat(" ").concat(segundoNome);
+    public static String nameComplete(String firstName, String secondName, String thirdName) {
+        String resultadoParse = "Retorno do Metodo " + firstName.concat(" ").concat(secondName);
 
-        if (terceiroNome != null && !terceiroNome.isEmpty()) {
-            resultadoParse = resultadoParse.concat(" ").concat(terceiroNome);
+        if (thirdName != null && !thirdName.isEmpty()) {
+            resultadoParse = resultadoParse.concat(" ").concat(thirdName);
         }
 
         return resultadoParse;
