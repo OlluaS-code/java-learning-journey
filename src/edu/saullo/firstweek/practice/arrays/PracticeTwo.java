@@ -15,7 +15,7 @@ public class PracticeTwo {
         System.out.println("=== Cadastro de Consoantes com Array de char ===");
 
         while (index < consoantes.length) {
-            System.out.print("Digite uma consoante para a posição [" + index + "]: ");
+            System.out.print("Digite uma consoante: ");
 
             char letraOriginal = scanner.next().charAt(0);
 
