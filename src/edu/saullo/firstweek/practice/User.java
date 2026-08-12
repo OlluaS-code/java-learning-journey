@@ -1,4 +1,4 @@
-package edu.saullo.firstweek.methods;
+package edu.saullo.firstweek.practice;
 
 public class User {
 
